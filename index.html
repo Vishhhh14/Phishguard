@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PhishGuard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            PhishGuard
+        </div>
+
+        <nav>
+            <a href="#">About</a>
+            <a href="#">How It Works</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+
+            <div class="threat-label">
+                THREAT ANALYSIS SYSTEM
+            </div>
+
+            <h1>
+                Detect Phishing<br>
+                Before It Tricks You.
+            </h1>
+
+            <p>
+                Paste a suspicious email or message below
+                and scan it for potential phishing threats.
+            </p>
+
+        </section>
+
+
+        <section class="scanner">
+
+            <div class="scanner-header">
+
+                <h2>Analyze a Message</h2>
+
+                <p>
+                    Paste the complete email or suspicious message below.
+                </p>
+
+            </div>
+
+
+            <textarea
+                id="emailInput"
+                placeholder="Paste your suspicious email here..."
+            ></textarea>
+
+
+            <div class="scan-area">
+
+                <button id="scanButton">
+                    Scan for Phishing
+                </button>
+
+            </div>
+
+
+            <div class="result">
+
+                <p class="result-title">
+                    ANALYSIS RESULT
+                </p>
+
+                <div id="resultContent">
+            <p id="resultText">
+                 Your scan result will appear here.
+            </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- JavaScript -->
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
+```
